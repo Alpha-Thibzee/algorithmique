@@ -386,6 +386,4 @@ function isGrandeSuite(dice) {
 }
 
 
-
-
 button15.addEventListener("click", ()=> diceRoll());
