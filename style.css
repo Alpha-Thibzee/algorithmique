@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    text-align:center;
+}
+.mt-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    min-height: 15rem;
+
+}
+button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #212121;
+    color: #fff;
+}
+input {
+    width: 20rem;
+    margin: 0.3rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    background-color: transparent;
+}
+p {
+    margin: 1rem;
+    text-align: center;
+}
+div {
+    width: 30rem;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
